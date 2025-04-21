@@ -13,13 +13,18 @@
         
     </head>
     <body>
-        <nav>
-            <a href="login.jsp">Iniciar Sesion</a>
-            <a href="perfil.jsp">Perfil</a>
-            <a href="Config.jsp">Configuración</a>
-            <a href="help.jsp">Ayuda</a>
-            <a href="index.jsp">Cerrar Sesion</a>
-        </nav>
+        <div class="contenedor-principal">
+            <nav class="menu">
+                <input type="checkbox" id="toggle-menu">
+                <label for="toggle-menu" class="hamburguesa">☰</label>
+
+                <ul class="menu-items">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="perfil.jsp">Servicios</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#">Ayuda</a></li>
+                </ul>
+            </nav>
         <div>Ingreso Usuario</div>
         <form name="viewport" action="ValidarUsuarioServlet" method="post">
             <br><br>
