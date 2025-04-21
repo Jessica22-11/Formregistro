@@ -134,7 +134,7 @@
                     <li><a href="#">Ayuda</a></li>
                 </ul>
             </nav>
-            
+
             <img class="img-login" src="img/usuario-seguro.png" alt="Usuario"/>
             
         <div>Ingreso Usuario</div>
