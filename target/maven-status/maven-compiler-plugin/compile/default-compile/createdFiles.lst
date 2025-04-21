@@ -1,0 +1,4 @@
+com\mycompany\formregistro\JakartaRestConfiguration.class
+Servert\ProcesarRegistroServert.class
+Servert\ValidarUsuario.class
+com\mycompany\formregistro\resources\JakartaEE10Resource.class
