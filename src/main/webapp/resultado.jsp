@@ -10,7 +10,8 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Resultado de Validación</title>
-            <style>
+
+        <style>
         body {
             font-family: Arial, sans-serif;
             background: #f5f5f5;
