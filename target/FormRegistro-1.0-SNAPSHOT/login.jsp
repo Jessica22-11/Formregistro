@@ -126,7 +126,7 @@
                 <label for="toggle-menu" class="hamburguesa">☰</label>
 
                 <ul class="menu-items">
-                    <li><a href="#">Inicio</a></li>
+                    <li><a href="">Inicio</a></li>
                     <li><a href="#">Servicios</a></li>
                     <li><a href="#">Contacto</a></li>
                     <li><a href="#">Ayuda</a></li>
