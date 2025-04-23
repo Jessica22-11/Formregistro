@@ -29,6 +29,7 @@
         h1 {
             color: #2c3e50;
             text-align: center;
+           
         }
         .success {
             color: green;
@@ -67,6 +68,18 @@
             background: #2980b9;
            
         }
+        .intento{
+            background: white;
+            color: black;
+            border-radius: 17px;
+                transition: background-color 0.3s ease;
+                padding: 9px;
+                font-size: 14px;
+        }
+        .intento:hover{
+            background-color: #72467c;
+                color :white;
+        }
     </style>
     </head>
     <body>
@@ -93,7 +106,7 @@
 
     <% } else { %>
         <p>Usuario o contraseña incorrectos.</p>
-        <a href="index.jsp" cl >Volver a intentar</a>
+        <a href="index.jsp" class="intento" >Volver a intentar</a>
     <% } %>
     
      </div>    
