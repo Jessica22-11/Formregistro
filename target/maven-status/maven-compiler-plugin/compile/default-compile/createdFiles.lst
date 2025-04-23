@@ -1,5 +1,0 @@
-com\mycompany\formregistro\JakartaRestConfiguration.class
-servers\ValidarUsuarioServlet.class
-servers\ProcesarRegistroServlet.class
-servers\sesion.class
-com\mycompany\formregistro\resources\JakartaEE10Resource.class
