@@ -60,6 +60,8 @@
     </head>
     <body>
      <div class="container">
+         
+         
     <h1>${mensaje}</h1>
     
     <% 
@@ -68,19 +70,16 @@
     %>
         <p>Bienvenido, ${usuario}!</p>
         <p>Has iniciado sesión correctamente.</p>
-        <div class="Menú">
+        <div class="menu">
             <h2>Menú de opciones</h2>
-            
             <a href="perfil.jsp">Perfil</a>
             <a href="Config.jsp">Configuración</a>
             <a href="help.jsp">Ayuda</a>
             <a href="index.jsp">Cerrar Sesion</a>
-            
-          
         </div>
     <% } else { %>
         <p>Usuario o contraseña incorrectos.</p>
-        <a href="index.jsp">Volver a intentar</a>
+        <a href="index.jsp" cl >Volver a intentar</a>
     <% } %>
     
      </div>
