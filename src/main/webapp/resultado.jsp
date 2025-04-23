@@ -74,13 +74,13 @@
             <a href="perfil.jsp">Perfil</a>
             <a href="Config.jsp">Configuración</a>
             <a href="help.jsp">Ayuda</a>
-            <a href="login.jsp">Cerrar Sesion</a>
+            <a href="index.jsp">Cerrar Sesion</a>
             
           
         </div>
     <% } else { %>
         <p>Usuario o contraseña incorrectos.</p>
-        <a href="login.jsp">Volver a intentar</a>
+        <a href="index.jsp">Volver a intentar</a>
     <% } %>
     
      </div>

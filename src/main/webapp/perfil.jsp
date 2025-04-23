@@ -7,6 +7,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
+    <a href="perfil.jsp"></a>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
@@ -17,7 +18,7 @@
     HttpSession sesion = request.getSession(false);
     if (sesion == null || sesion.getAttribute("usuario") == null) {
     %>
-         <p style="color:red; font-weight:bold;">Acceso denegado. Por favor, <a href="login.jsp">inicia sesión</a> para continuar.</p>
+         <p style="color:red; font-weight:bold;">Acceso denegado. Por favor, <a href="index.jsp">inicia sesión</a> para continuar.</p>
     <%
     }else {
     String usuario = (String) sesion.getAttribute("usuario");
@@ -29,7 +30,7 @@
         <p><strong>Nombre de usuario:</strong> <%= usuario %></p>
         <p><strong>Correo:</strong> <%= usuario %>@ejemplo.com</p>
         <br>
-        <a href="resultado.jsp">Volver al inicio</a>
+        <a href="index.jsp">Volver al inicio</a>
         
         <%
             }
