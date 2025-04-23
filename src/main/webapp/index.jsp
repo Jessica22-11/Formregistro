@@ -145,7 +145,7 @@
             <br><br>
             Clave: <input type="password" name="clave" value="" />
             <br><br>
-            <input type="submit" value="Ingresar" />
+            <input class="btn-ingresar" type="submit" value="Ingresar" />
             <br><br>
         </form>
         </div>
