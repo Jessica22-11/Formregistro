@@ -72,10 +72,6 @@
     <body>
        
      <div class="container">
-<<<<<<< HEAD
-         
-         
-=======
           <nav class="Menú">
             
            <ul class="menu-items">
@@ -84,11 +80,8 @@
                     <a href="perfil.jsp">Perfil</a>
                     <a href="#">Contacto</a>
                     <a href="#">Ayuda</a>
-                </ul>
-            
-          
+                </ul>   
         </nav>
->>>>>>> 794b58f9a837f33a6df6f77a7f973191273b9b96
     <h1>${mensaje}</h1>
     
     <% 
@@ -97,24 +90,12 @@
     %>
         <p>Bienvenido, ${usuario}!</p>
         <p>Has iniciado sesión correctamente.</p>
-<<<<<<< HEAD
-        <div class="menu">
-            <h2>Menú de opciones</h2>
-            <a href="perfil.jsp">Perfil</a>
-            <a href="Config.jsp">Configuración</a>
-            <a href="help.jsp">Ayuda</a>
-            <a href="index.jsp">Cerrar Sesion</a>
-        </div>
-=======
-        
->>>>>>> 794b58f9a837f33a6df6f77a7f973191273b9b96
+
     <% } else { %>
         <p>Usuario o contraseña incorrectos.</p>
         <a href="index.jsp" cl >Volver a intentar</a>
     <% } %>
     
-     </div>
-
-        
+     </div>    
     </body>
 </html>
