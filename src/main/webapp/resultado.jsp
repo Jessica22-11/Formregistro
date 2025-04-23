@@ -80,9 +80,7 @@
                     <a href="perfil.jsp">Perfil</a>
                     <a href="#">Contacto</a>
                     <a href="#">Ayuda</a>
-                </ul>
-            
-          
+                </ul>   
         </nav>
     <h1>${mensaje}</h1>
     
@@ -92,14 +90,12 @@
     %>
         <p>Bienvenido, ${usuario}!</p>
         <p>Has iniciado sesión correctamente.</p>
-        
+
     <% } else { %>
         <p>Usuario o contraseña incorrectos.</p>
-        <a href="index.jsp">Volver a intentar</a>
+        <a href="index.jsp" cl >Volver a intentar</a>
     <% } %>
     
-     </div>
-
-        
+     </div>    
     </body>
 </html>
