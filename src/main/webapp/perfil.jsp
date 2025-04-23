@@ -46,12 +46,13 @@
             .botton{
                 display: inline-block;
                 margin-top: 20px;
-                padding: 0 20px;
-                background-color: #bf89e3;
-                color: #120d0d;
+                background-color: white;
+                color: black;
                 text-decoration: none;
                 border-radius: 17px;
                 transition: background-color 0.3s ease;
+                padding: 9px;
+                font-size: 14px;
             }
 
             .botton:hover {
@@ -96,7 +97,7 @@
         <br>
         
         
-        <a href="index.jsp" class="botton">Volver al inicio</a>
+        <a  href="index.jsp" class="botton">Volver al inicio</a>
         
         
     </div>
