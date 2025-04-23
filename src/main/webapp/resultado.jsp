@@ -18,12 +18,13 @@
             padding: 40px;
         }
         .container {
-            background: #ffffff;
+            background: #f2e9f2;
             padding: 30px;
             border-radius: 10px;
             box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
-            max-width: 600px;
+            max-width: 430px;
             margin: auto;
+            text-align: center;
         }
         h1 {
             color: #2c3e50;
@@ -35,31 +36,54 @@
         .error {
             color: red;
         }
-        .menu {
-            margin-top: 30px;
+        .Menú {
+            
+            display: flex;
+            align-items: anchor-center;
+            flex-direction: row;
+            justify-content: center;
+            background: #755e75;
+            border-radius: 10px;
+            width: 425px;
+            height: 27px;
+            
+            
+        }
+        a{
+             color: #f7f2f7;
+             text-decoration: none;
+             margin: 0 10px;
+             font-size: 15px;
+        }
+        .auno{
+            margin: 0 10px 0 0;
         }
         h2 {
             text-align: center;
             color: black;
         }
-        .menu a {
-            text-align: center;
-            display: inline-block;
-            margin: 10px;
-            padding: 10px 15px;
-            background: #3498db;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
-        }
-        .menu a:hover {
+       
+        .Menu a:hover {
             background: #2980b9;
+           
         }
     </style>
     </head>
     <body>
+       
      <div class="container">
+          <nav class="Menú">
+            
+           <ul class="menu-items">
+                    
+               <a class="auno" href="#">Inicio</a>
+                    <a href="perfil.jsp">Perfil</a>
+                    <a href="#">Contacto</a>
+                    <a href="#">Ayuda</a>
+                </ul>
+            
+          
+        </nav>
     <h1>${mensaje}</h1>
     
     <% 
@@ -68,16 +92,7 @@
     %>
         <p>Bienvenido, ${usuario}!</p>
         <p>Has iniciado sesión correctamente.</p>
-        <div class="Menú">
-            <h2>Menú de opciones</h2>
-            
-            <a href="perfil.jsp">Perfil</a>
-            <a href="Config.jsp">Configuración</a>
-            <a href="help.jsp">Ayuda</a>
-            <a href="index.jsp">Cerrar Sesion</a>
-            
-          
-        </div>
+        
     <% } else { %>
         <p>Usuario o contraseña incorrectos.</p>
         <a href="index.jsp">Volver a intentar</a>
