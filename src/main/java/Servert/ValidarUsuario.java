@@ -27,6 +27,7 @@ public class ValidarUsuario extends HttpServlet {
           || "admin2".equals(user) && "1234".equals(pass)
           || "admin3".equals(user) && "2222".equals(pass)) {
             esValido = true;
+            
             mensaje = "Registro Exitoso";
             
             HttpSession sesion = request.getSession();
